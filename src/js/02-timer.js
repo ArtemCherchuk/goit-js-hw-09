@@ -84,4 +84,3 @@ function addLeadingZero(value) {
 
 const flatpickr = flatpickr('#datetime-picker', options);
 btnStart.addEventListener('click', onStart);
-// console.log(object);
