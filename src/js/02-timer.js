@@ -54,9 +54,6 @@ const timer = {
   },
 };
 
-const flatpickr = flatpickr(inputEl, options);
-btnStart.addEventListener('click', onStart);
-
 function onStart() {
   timer.start();
 }
@@ -84,3 +81,6 @@ function convertMs(ms) {
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }
+
+const flatpickr = flatpickr(inputEl, options);
+btnStart.addEventListener('click', onStart);
