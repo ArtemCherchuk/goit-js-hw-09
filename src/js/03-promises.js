@@ -16,7 +16,7 @@ function createPromise(position, delay) {
 }
 
 onClickSubmit = event => {
-  // console.log(event);
+  console.log(event);
   event.preventDefault();
   const { delay, step, amount } = event.currentTarget.elements;
 
