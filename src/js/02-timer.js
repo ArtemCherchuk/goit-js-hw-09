@@ -82,5 +82,5 @@ function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }
 
-const flatpickr = flatpickr(inputEl, options);
+const flatpickr = flatpickr('#datetime-picker', options);
 btnStart.addEventListener('click', onStart);
