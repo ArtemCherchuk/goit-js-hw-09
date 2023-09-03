@@ -15,7 +15,7 @@ function createPromise(position, delay) {
   });
 }
 
-onClickSubmit = event => {
+function onClickSubmit(event) {
   console.log(event);
   event.preventDefault();
   const { delay, step, amount } = event.currentTarget.elements;
@@ -41,5 +41,5 @@ onClickSubmit = event => {
   }
 
   event.currentTarget.reset();
-};
+}
 formEl.addEventListener('submit', onClickSubmit);
