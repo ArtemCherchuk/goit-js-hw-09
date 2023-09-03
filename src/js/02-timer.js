@@ -32,6 +32,7 @@ const options = {
     }
   },
 };
+const flatpickr = flatpickr(inputEl, options);
 
 const timer = {
   start() {
@@ -82,5 +83,4 @@ function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }
 
-const flatpickr = flatpickr('#datetime-picker', options);
 btnStart.addEventListener('click', onStart);
