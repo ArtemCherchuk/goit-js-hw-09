@@ -32,7 +32,7 @@ const options = {
     }
   },
 };
-const flatpickr = flatpickr(inputEl, options);
+const fl = flatpickr(inputEl, options);
 
 const timer = {
   start() {
